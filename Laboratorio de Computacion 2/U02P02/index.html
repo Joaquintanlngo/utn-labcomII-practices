@@ -4,8 +4,89 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        table,
+        td,
+        th {
+        border: 1px solid black;
+        border-collapse: collapse;
+        padding: 5px;
+        }
+        table {
+        width: 100%;
+        }
+        </style>
 </head>
 <body>
-    
+    <!--TABLA SIMPLE-->
+    <table>
+        <tr>
+            <th>Nombre</th>
+            <td>Joaquin</td>
+            <td>Francisco</td>
+            <td>Mario</td>
+            <td>Maxi</td>
+        </tr>
+        <tr>
+            <th>Apellido</th>
+            <td>Tanlongo</td>
+            <td>Palena</td>
+            <td>Massonat</td>
+            <td>Martin</td>
+        </tr>
+        <tr>
+            <th>Numero</th>
+            <td>3412132987</td>
+            <td>3415123453</td>
+            <td>3415023276</td>
+            <td>3412678788</td>
+        </tr>
+    </table>
+    <hr>
+    <!--TABLA COMPLEJA-->
+    <table>
+
+        <thead>
+            <th colspan="2">Producto</th>
+            <th>Marca</th>
+            <th>Precio</th>
+            <th>Stock</th>
+            <th>Link</th>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td colspan="2">Zapatillas</td>
+                <td>Nike</td>
+                <td>$ 115.999</td>
+                <td>25</td>
+                <td><a href="https://articulo.mercadolibre.com.ar/MLA-1574805028-zapatillas-para-hombre-nike-revolution-6-next-nature-_JM?searchVariation=180784910309#searchVariation=180784910309&position=1&search_layout=grid&type=item&tracking_id=31c53fa8-cac6-492f-ae19-af40148226f5">Comprar</a></td>
+            </tr>
+
+            <tr>
+                <td colspan="2">Remera</td>
+                <td>Addidas</td>
+                <td>$ 32.999</td>
+                <td>51</td>
+                <td><a href="https://articulo.mercadolibre.com.ar/MLA-1383331173-remera-essentials-logo-grande-tejido-jersey-ij8576-adidas-_JM?searchVariation=178473188712#is_advertising=true&searchVariation=178473188712&position=1&search_layout=stack&type=pad&tracking_id=1c519427-5045-46af-b255-ca8f11a5678e&is_advertising=true&ad_domain=VQCATCORE_LST&ad_position=1&ad_click_id=M2M5YTI1NWEtNzE2Ni00YjVkLWExMWUtNDJhMzZmZDQ2Y2Ex">Comprar</a></td>
+            </tr>
+
+            <tr>
+                <td colspan="2">Pelota (Basquet)</td>
+                <td>Molten</td>
+                <td>$ 34.681</td>
+                <td>59</td>
+                <td><a href="https://www.mercadolibre.com.ar/pelota-basquet-molten-n7-b7g2000-fiba-indoor-outdoor/p/MLA23575995?pdp_filters=item_id:MLA1373194873#is_advertising=true&searchVariation=MLA23575995&position=1&search_layout=stack&type=pad&tracking_id=60256e1d-db94-4b79-8802-72f9579d9739&is_advertising=true&ad_domain=VQCATCORE_LST&ad_position=1&ad_click_id=MGY1NTVmNTQtYzE0MS00MzliLWJhZDYtNzc2ZTZjM2ExM2Vm">Comprar</a></td>
+            </tr>
+
+            <tr>
+                <td colspan="2">Botines</td>
+                <td>Umbro</td>
+                <td>$ 67.838</td>
+                <td>25</td>
+                <td><a href="https://articulo.mercadolibre.com.ar/MLA-1131677312-botin-sintetico-umbro-cosmic-_JM?searchVariation=174420464824#is_advertising=true&searchVariation=174420464824&position=1&search_layout=grid&type=pad&tracking_id=e8ce6913-ff3f-40e9-9ea6-27d0c6ad7be5&is_advertising=true&ad_domain=VQCATCORE_LST&ad_position=1&ad_click_id=MWU5ZDBkZTctNjBlOS00YjI1LWFkMTEtNDZjNTczYzhmZDQw">Comprar</a></td>
+            </tr>
+        </tbody>
+    </table>
 </body>
 </html>
